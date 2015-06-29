@@ -1,0 +1,16 @@
+
+Dinahosting HTTP Request
+
+
+
+
+v 1.0
+26-08-2011
+
+- Abstract class files named Abstract.
+
+
+
+v 0.9
+
+- First release.
