@@ -67,7 +67,7 @@ $patron2 = '/(\w{5,}\.\w{2,})$/';
 	$time_end = microtime(true);
 	$tiempo = ($time_end - $time_start)/60;
 	//mando reporte cuando todo ha terminado
-	$cabeceras = 'From: sparky@vgsystems.es' . "\r\n" . 'Reply-To: sparky@vgsystems.es';
-	mail ( 'vguerrero@vgsystems.es' , 'SPARKY ha hecho su trabajo' , 'SPARKY ha hecho todo lo que le has pedido en un tiempo de '.$tiempo.' minutos', $cabeceras );
+	$cabeceras = 'From: correo@correo.com' . "\r\n" . 'Reply-To: correo@correo.com';
+	mail ( 'correo@correo.com' , 'SEOBINGOS ha hecho su trabajo' , 'SEOBINGOS ha hecho todo lo que le has pedido en un tiempo de '.$tiempo.' minutos', $cabeceras );
 
 	?>
